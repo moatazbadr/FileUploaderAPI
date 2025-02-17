@@ -8,10 +8,18 @@ namespace FileUploader.API.Controllers
     [ApiController]
     public class MainController : ControllerBase
     {
+        private readonly UploadHandler _uploadHandler;
+
+        public MainController(IWebHostEnvironment webHostEnvironment)
+        {
+            _uploadHandler = new UploadHandler(webHostEnvironment);
+        }
+
+
         [HttpPost]
         public IActionResult UploadFile(IFormFile formFile)
         {
-            return Ok (new uploadHandler().Upload(formFile));
+            return Ok (_uploadHandler.Upload(formFile));
         }
     }
 }

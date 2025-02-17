@@ -30,3 +30,4 @@ C:\Users\moataz\Desktop\.Net study\FileUploader\FileUploader.API\obj\Debug\net8.
 C:\Users\moataz\Desktop\.Net study\FileUploader\FileUploader.API\obj\Debug\net8.0\FileUploader.API.pdb
 C:\Users\moataz\Desktop\.Net study\FileUploader\FileUploader.API\obj\Debug\net8.0\FileUploader.API.genruntimeconfig.cache
 C:\Users\moataz\Desktop\.Net study\FileUploader\FileUploader.API\obj\Debug\net8.0\ref\FileUploader.API.dll
+C:\Users\moataz\Desktop\.Net study\FileUploader\FileUploader.API\obj\Debug\net8.0\FileUploader.API.sourcelink.json
